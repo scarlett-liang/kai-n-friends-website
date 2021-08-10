@@ -1,0 +1,185 @@
+:root {
+  --primary-color: rgb(238, 255, 186);
+  --background-color: #f9faff;
+}
+body {
+  background: var(--background-color);
+}
+h1 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+h2 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--primary-color);
+  text-shadow: 2px 2px 5px black;
+}
+h3 {
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 72px;
+}
+h4 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  line-height: 150%;
+}
+p {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  opacity: 70%;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav ur {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  padding-left: 48px;
+}
+.contact-info li {
+  color: var(--primary-color);
+  background: black;
+}
+.img-wrapper {
+  background-image: url("/img/profile-pic.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: top;
+  background-size: 50%;
+}
+.hero {
+  padding: 80px 120px;
+}
+.logo {
+  font-family: "comfortaa";
+  font-size: 18px;
+  line-height: 180%;
+  font-weight: 700;
+}
+.menu-bar {
+  font-family: "raleway";
+  font-size: 18px;
+  line-height: 28px;
+}
+.btn {
+  font-family: "roboto";
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px 24px;
+  transition: all 100ms ease-in-out;
+  margin-top: 32px;
+}
+.btn-brand {
+  color: black;
+  background: var(--primary-color);
+  margin-right: 12px;
+  border: solid 3px black;
+}
+.btn-dark {
+  color: var(--primary-color);
+  background: black;
+  border: solid 2px black;
+}
+.secondary-paragraph {
+  font-family: "Nunito";
+  font-size: 18px;
+  line-height: 150%;
+}
+.column {
+  border-radius: 10px;
+  margin: 100px 222px;
+  background: white;
+  border: 2px solid black;
+}
+.hashtag {
+  color: var(--primary-color);
+  font-weight: bold;
+  background: black;
+  display: inline;
+  line-height: 1.5;
+}
+.pic {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.column-text {
+  margin: 80px 30px;
+}
+.active {
+  color: var(--primary-color);
+  background: black;
+}
+.contact-icon {
+  width: 2%;
+}
+.footer-name {
+  font-family: "Nunito";
+  font-size: 16px;
+  opacity: 70%;
+  margin-top: 10px;
+}
+.contact-info {
+  list-style: none;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+.contact-link {
+  color: black;
+  opacity: 70%;
+}
+.contact-link:hover {
+  color: black;
+}
+.title {
+  text-decoration: underline 10px var(--primary-color);
+}
+nav a:hover {
+  color: var(--primary-color);
+  background: black;
+}
+.btn-brand:hover {
+  font-size: 19px;
+  color: black;
+}
+.btn-dark:hover {
+  font-size: 19px;
+  color: var(--primary-color);
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  .logo,
+  .menu-bar {
+    font-size: 12px;
+  }
+  .hero {
+    text-align: center;
+    padding: 30px 60px;
+  }
+  .column {
+    margin: 50px 40px;
+    text-align: center;
+  }
+  .img-wrapper {
+    background: none;
+  }
+}
