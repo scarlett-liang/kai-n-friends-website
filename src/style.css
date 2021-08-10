@@ -52,10 +52,7 @@ nav li {
   display: inline;
   padding-left: 48px;
 }
-.contact-info li {
-  color: var(--primary-color);
-  background: black;
-}
+
 .img-wrapper {
   background-image: url("/img/profile-pic.png");
   background-repeat: no-repeat;
@@ -135,13 +132,13 @@ nav li {
   margin-top: 10px;
 }
 .contact-info {
-  list-style: none;
   font-family: "Nunito";
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 24px;
 }
 .contact-link {
+  word-wrap: break-word;
   color: black;
   opacity: 70%;
 }
