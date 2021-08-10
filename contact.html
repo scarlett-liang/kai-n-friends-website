@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get in touch with Scarlett Liang via Email, Instagram or LinkedIn."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,16 +25,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Document</title>
+    <title>Scarlett Liang: contact with me</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <a href="/" class="logo">Scarlett Liang</a>
         <ul>
-          <li><a href="/about.html" class="menu-bar">About</a></li>
-          <li><a href="/#project" class="menu-bar">Work</a></li>
-          <li><a href="/contact.html" class="menu-bar active">Contact</a></li>
+          <li><a href="/about.html" class="menu-bar" title="About Scarlett">About</a></li>
+            <li><a href="/#project" class="menu-bar" title="Scarlett's projects">Work</a></li>
+            <li><a href="/contact.html" class="menu-bar active" title="Contact Scarlett">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -43,13 +47,13 @@
             <p class="secondary-paragraph">
                 <ul class="contact-info">
                     <li>Instagram:</li>
-                        <a href="https://www.instagram.com/scarlett.liang/" class="d-block contact-link" target="_blank">scarlett.liang</a>
+                        <a href="https://www.instagram.com/scarlett.liang/" title="To view my Instagram" class="d-block contact-link" target="_blank">scarlett.liang</a>
                     <br />
                     <li>LinkedIn: </li>
-                        <a href="https://www.linkedin.com/in/scarlettliang/" class="d-block contact-link" target="_blank">scarlett liang</a>
+                        <a href="https://www.linkedin.com/in/scarlettliang/" title="To view my LinkedIn" class="d-block contact-link" target="_blank">scarlett liang</a>
                     <br />
                     <li>Email: </li>
-                        <a href="mailto:scarlett.sijia.liang@gmail.com" class="d-block contact-link" target="_blank">scarlett.sijia.liang@gmail.com</a>
+                        <a href="mailto:scarlett.sijia.liang@gmail.com" title="Write Email to me" class="d-block contact-link" target="_blank">scarlett.sijia.liang@gmail.com</a>
                 </ul>
             </p>
           </div>
@@ -60,22 +64,34 @@
       </div>
     </div>
 
-    <footer class="text-center">
-      <a href="https://www.instagram.com/scarlett.liang/"
-        ><img src="/img/instagram.png" class="contact-icon"
+   <footer class="text-center">
+      <a
+        href="https://www.instagram.com/scarlett.liang/"
+        title="To my Instagram page"
+        target="_blank"
+        ><img src="/img/instagram.png" class="contact-icon" alt="Instagram"
       /></a>
-      <a href="https://www.linkedin.com/in/scarlettliang/"
-        ><img src="/img/linkedin.png" class="contact-icon ms-3"
+      <a
+        href="https://www.linkedin.com/in/scarlettliang/"
+        title="To my LinkedIn page"
+        target="_blank"
+        ><img src="/img/linkedin.png" class="contact-icon ms-3" alt="LinkedIn"
       /></a>
-      <a href="mailto:scarlett.sijia.liang@gmail.com"
-        ><img src="/img/email.png" class="contact-icon ms-3"
+      <a
+        href="mailto:scarlett.sijia.liang@gmail.com"
+        title="Write Email to me"
+        target="_blank"
+        ><img src="/img/email.png" class="contact-icon ms-3" alt="Email"
       /></a>
-      <div class="footer-name">Scarlett Liang 2021, open-sourced on
+      <div class="footer-name">
+        Scarlett Liang 2021, open-sourced on
         <a
           href="https://github.com/scarlett-liang/scarlett-profile-website"
           target="_blank"
+          title="Check out the open source"
           >GitHub</a
-        ></div>
+        >
+      </div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
