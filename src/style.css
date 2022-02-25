@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(238, 255, 186);
+  --primary-color: #fab063;
   --background-color: #f9faff;
 }
 body {
@@ -11,13 +11,12 @@ h1 {
   font-size: 64px;
   line-height: 1.2;
   margin-bottom: 32px;
+  color: var(--primary-color);
 }
 h2 {
   font-family: "Nunito";
   font-weight: 700;
   font-size: 26px;
-  color: var(--primary-color);
-  text-shadow: 2px 2px 5px black;
 }
 h3 {
   font-family: "Playfair Display";
@@ -34,7 +33,7 @@ h4 {
 p {
   font-family: "Nunito";
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 24px;
   opacity: 70%;
 }
@@ -53,15 +52,8 @@ nav li {
   padding-left: 48px;
 }
 
-.img-wrapper {
-  background-image: url("/img/profile-pic.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-position-y: top;
-  background-size: 50%;
-}
 .hero {
-  padding: 80px 120px;
+  padding: 40px 120px;
 }
 .logo {
   font-family: "comfortaa";
@@ -69,10 +61,14 @@ nav li {
   line-height: 180%;
   font-weight: 700;
 }
-.menu-bar {
+.logo-pic {
+  height: 80px;
+  padding-left: 10px;
+}
+.nav-link {
   font-family: "raleway";
   font-size: 18px;
-  line-height: 28px;
+  line-height: 80px;
 }
 .btn {
   font-family: "roboto";
@@ -98,10 +94,14 @@ nav li {
   font-size: 18px;
   line-height: 150%;
 }
-.column {
+.column-border {
   border-radius: 10px;
   margin: 100px 222px;
   background: white;
+  border: 2px solid black;
+}
+.card {
+  border-radius: 10px;
   border: 2px solid black;
 }
 .hashtag {
@@ -112,16 +112,16 @@ nav li {
   line-height: 1.5;
 }
 .pic {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 8px;
 }
 .column-text {
   margin: 80px 30px;
 }
 .active {
   color: var(--primary-color);
-  background: black;
+  font-weight: bold;
 }
+
 .contact-icon {
   width: 2%;
 }
@@ -142,16 +142,17 @@ nav li {
   color: black;
   opacity: 70%;
 }
+.nav-link:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+}
 .contact-link:hover {
   color: black;
 }
 .title {
   text-decoration: underline 10px var(--primary-color);
 }
-nav a:hover {
-  color: var(--primary-color);
-  background: black;
-}
+
 .btn-brand:hover {
   font-size: 19px;
   color: black;
