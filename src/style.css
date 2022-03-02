@@ -1,17 +1,17 @@
 :root {
   --primary-color: #fab063;
   --background-color: #f9faff;
+  --secondary-color: #fdeace;
+  --third-color: #e89a7d;
 }
-body {
-  background: var(--background-color);
-}
+
 h1 {
   font-family: "Playfair Display";
   font-weight: 700;
   font-size: 64px;
   line-height: 1.2;
   margin-bottom: 32px;
-  color: var(--primary-color);
+  color: #000000;
 }
 h2 {
   font-family: "Nunito";
@@ -30,12 +30,23 @@ h4 {
   font-size: 40px;
   line-height: 150%;
 }
+h5 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--primary-color);
+}
 p {
   font-family: "Nunito";
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
   opacity: 70%;
+  font-size: 18px;
+  line-height: 150%;
+}
+nav {
+  padding: 0;
+  margin: 0;
+  background-color: var(--primary-color);
 }
 nav a {
   color: black;
@@ -54,6 +65,9 @@ nav li {
 
 .hero {
   padding: 40px 120px;
+  background-image: url(/img/background.svg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 .logo {
   font-family: "comfortaa";
@@ -65,11 +79,18 @@ nav li {
   height: 80px;
   padding-left: 10px;
 }
+
 .nav-link {
   font-family: "raleway";
   font-size: 18px;
   line-height: 80px;
+  color: #494949;
 }
+.navbar {
+  padding: 0;
+  margin: 0;
+}
+
 .btn {
   font-family: "roboto";
   font-size: 18px;
@@ -89,14 +110,10 @@ nav li {
   background: black;
   border: solid 2px black;
 }
-.secondary-paragraph {
-  font-family: "Nunito";
-  font-size: 18px;
-  line-height: 150%;
-}
+
 .column-border {
   border-radius: 10px;
-  margin: 100px 222px;
+  margin: 100px 60px;
   background: white;
   border: 2px solid black;
 }
@@ -143,7 +160,7 @@ nav li {
   opacity: 70%;
 }
 .nav-link:hover {
-  color: var(--primary-color);
+  color: #000000;
   font-weight: bold;
 }
 .contact-link:hover {
