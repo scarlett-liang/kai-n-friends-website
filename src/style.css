@@ -5,7 +5,7 @@
   --third-color: #e89a7d;
 }
 body {
-  background-image: url(/img/background-3.svg);
+  background-image: url(/img/background.svg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -52,7 +52,6 @@ nav.navbar {
   margin: 0;
 }
 nav a {
-  color: black;
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
@@ -72,12 +71,7 @@ nav li {
   margin: 0;
   padding: 0 12px;
 }
-.logo {
-  font-family: "comfortaa";
-  font-size: 18px;
-  line-height: 180%;
-  font-weight: 700;
-}
+
 .logo-pic {
   height: 80px;
   padding-left: 10px;
@@ -93,7 +87,9 @@ nav li {
   padding: 0;
   margin: 0;
 }
-
+.navbar-toggler {
+  color: var(--primary-color);
+}
 .btn {
   font-family: "roboto";
   font-size: 18px;
@@ -136,6 +132,9 @@ nav li {
   border-radius: 50%;
   padding: 8px 12px;
   font-weight: bold;
+}
+.previous-route {
+  color: #000000;
 }
 .card {
   border-radius: 10px;
@@ -180,7 +179,7 @@ nav li {
   color: black;
 }
 .nav-link:hover {
-  color: #000000;
+  color: var(--primary-color);
   font-weight: bold;
 }
 .contact-link:hover {
@@ -194,7 +193,9 @@ nav li {
   font-size: 19px;
   color: black;
 }
-
+.previous-route:hover {
+  color: var(--primary-color);
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 48px;

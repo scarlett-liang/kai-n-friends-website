@@ -28,13 +28,13 @@
     <title>Kai'n Friends: news!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light" id="back-to-top">
+    <nav class="navbar navbar-expand-md" id="back-to-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">
-          <img src="img/logo black.png" alt="logo" class="logo-pic" />
+          <img src="img/logo.png" alt="logo" class="logo-pic" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler navbar-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo02"
@@ -85,8 +85,19 @@
           aria-label="breadcrumb"
         >
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
-            <li class="breadcrumb-item"><a href="/news.html">News</a></li>
+            <li class="breadcrumb-item">
+              <a
+                href="/index.html"
+                class="previous-route"
+                title="Back to home page"
+                >Home</a
+              >
+            </li>
+            <li class="breadcrumb-item">
+              <a href="/news.html" class="previous-route" title="Back to News"
+                >News</a
+              >
+            </li>
             <li class="breadcrumb-item opacity-75" aria-current="page">
               Article Name
             </li>
