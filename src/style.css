@@ -103,7 +103,7 @@ nav li {
   color: black;
   background: var(--primary-color);
   margin-right: 12px;
-  border: solid 3px black;
+  border: solid 2px black;
 }
 .btn-dark {
   color: var(--primary-color);
@@ -113,9 +113,25 @@ nav li {
 
 .column-border {
   border-radius: 10px;
-  margin: 100px 60px;
+  margin: 40px 60px;
   background: white;
   border: 2px solid black;
+}
+.btn-navigation {
+  color: black;
+  background: var(--primary-color);
+  border: solid 2px black;
+  margin: 0 60px 100px 60px;
+}
+.btn-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border: solid 2px black;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  padding: 8px 12px;
+  font-weight: bold;
 }
 .card {
   border-radius: 10px;
@@ -159,6 +175,12 @@ nav li {
   color: black;
   opacity: 70%;
 }
+.image-credit {
+  color: black;
+}
+.image-credit:hover {
+  color: black;
+}
 .nav-link:hover {
   color: #000000;
   font-weight: bold;
@@ -170,14 +192,11 @@ nav li {
   text-decoration: underline 10px var(--primary-color);
 }
 
-.btn-brand:hover {
+.btn:hover {
   font-size: 19px;
   color: black;
 }
-.btn-dark:hover {
-  font-size: 19px;
-  color: var(--primary-color);
-}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 48px;
