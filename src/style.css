@@ -4,7 +4,11 @@
   --secondary-color: #fdeace;
   --third-color: #e89a7d;
 }
-
+body {
+  background-image: url(/img/background-3.svg);
+  background-attachment: fixed;
+  background-size: cover;
+}
 h1 {
   font-family: "Playfair Display";
   font-weight: 700;
@@ -43,10 +47,9 @@ p {
   font-size: 18px;
   line-height: 150%;
 }
-nav {
+nav.navbar {
   padding: 0;
   margin: 0;
-  background-color: var(--primary-color);
 }
 nav a {
   color: black;
@@ -62,12 +65,12 @@ nav li {
   display: inline;
   padding-left: 48px;
 }
-
 .hero {
   padding: 40px 120px;
-  background-image: url(/img/background.svg);
-  background-attachment: fixed;
-  background-size: cover;
+}
+.breadcrumb {
+  margin: 0;
+  padding: 0 12px;
 }
 .logo {
   font-family: "comfortaa";
@@ -110,10 +113,11 @@ nav li {
   background: black;
   border: solid 2px black;
 }
-
+.column {
+  margin: 40px 60px;
+}
 .column-border {
   border-radius: 10px;
-  margin: 40px 60px;
   background: white;
   border: 2px solid black;
 }
@@ -137,13 +141,7 @@ nav li {
   border-radius: 10px;
   border: 2px solid black;
 }
-.hashtag {
-  color: var(--primary-color);
-  font-weight: bold;
-  background: black;
-  display: inline;
-  line-height: 1.5;
-}
+
 .pic {
   border-radius: 8px;
 }
