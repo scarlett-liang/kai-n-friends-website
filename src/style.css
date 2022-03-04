@@ -65,7 +65,7 @@ nav li {
   padding-left: 48px;
 }
 .hero {
-  padding: 40px 120px;
+  padding: 40px 80px;
 }
 .breadcrumb {
   margin: 0;
@@ -110,7 +110,8 @@ nav li {
   border: solid 2px black;
 }
 .column {
-  margin: 40px 60px;
+  max-width: 90%;
+  margin: 30px auto;
 }
 .column-border {
   border-radius: 10px;
@@ -206,11 +207,13 @@ nav li {
   }
   .hero {
     text-align: center;
-    padding: 30px 60px;
+    padding: 30px 10px;
   }
   .column {
-    margin: 50px 40px;
     text-align: center;
+  }
+  .column-text {
+    margin: 30px 10px;
   }
   .img-wrapper {
     background: none;
